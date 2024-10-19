@@ -7,7 +7,7 @@ const VideoModal = ({ open, handleOpen, videoId }) => {
     <Dialog open={open} size={"md"} handler={handleOpen}>
       <DialogHeader className="py-2">
         <div className="flex items-center justify-between w-full">
-          <h1 className="text-lg font-semibold">More Products</h1>
+          <h1 className="text-lg font-semibold">Videos</h1>
           <span
             onClick={handleOpen}
             className="p-2 font-bold rounded-full bg-orange-100 text-lg cursor-pointer"
